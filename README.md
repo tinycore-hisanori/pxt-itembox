@@ -1,4 +1,4 @@
-#pxt-itembox
+# pxt-itembox
 
 これはmakecode Arcadeのextenstionプロジェクトです。
 
@@ -7,7 +7,7 @@
 ※このextensionは「sprite-text」クラスを利用しているため、
 このextensionの前に先に「sprite-text」を追加しておいてください。
 
-##使い方：
+## 使い方：
 
 1. itembox.tsの中身をすべてコピーする
 2. makecode Arcadeで「javascript」タブをクリックしてexproloerで「＋」をクリックし、新しく「itembox.ts」を追加する
