@@ -62,8 +62,8 @@ namespace itembox {
         //% weight=100 blockGap=8 group="Modify"
         public addItem (itemNo: number, itemCnt: number) {
             this.itemCntList[itemNo] = this.itemCntList[itemNo] + itemCnt
-            if (this.itemCntList[itemNo] > 99) {
-                this.itemCntList[itemNo] = 99
+            if (this.itemCntList[itemNo] > 9) {
+                this.itemCntList[itemNo] = 9
             }
             this.showItem()
         }
