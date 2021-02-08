@@ -40,6 +40,7 @@ namespace itembox {
         ffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.Player)
             this.itemBG.setPosition(22, 15)
+            this.itemBG.z = 99
             this.itemTextSpriteList = []
             for (let index4 = 0; index4 <= imageList.length - 1; index4++) {
                 this.itemTextSpriteList.push(textsprite.create("", 0, 1))
@@ -53,6 +54,7 @@ namespace itembox {
                 value2.setPosition(24, 14)
                 value2.setFlag(SpriteFlag.RelativeToCamera, true)
                 value2.setFlag(SpriteFlag.Invisible, true)
+                value2.z = 99
                 index = index + 1
             }
             this.itemBG.setFlag(SpriteFlag.Invisible, true)
