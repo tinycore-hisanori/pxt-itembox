@@ -139,8 +139,8 @@ namespace itembox {
         //% blockId=item_storage_getitemcount block="get item count Item No. $itemNo from $this(itembox)"
         //% weight=100 blockGap=8 group="Query"
         public getItemCount (itemNo:number) :number {
-            if(this.selectedItemIndex != -1){
-                return this.itemCntList[this.selectedItemIndex]
+            if(this.itemCntList.length > itemNo){
+                return this.itemCntList[itemNo]
             } else {
                 return 0
             }
